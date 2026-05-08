@@ -12,6 +12,16 @@ The adoption of Distributed Ledger Technology (DLT) for critical financial infra
 
 Fabric-X proves that permissioned DLTs can be engineered for national-scale payment systems, providing a resilient and highly performant foundation for practical digital assets and currencies deployments and the integration of advanced, computationally intensive features.
 
+## Quick Navigation
+
+- [Architecture Overview](https://github.com/hyperledger/fabric-x#architecture-overview) - diagrams and description of the Fabric-X
+- [Fabric-X-Orderer](https://github.com/hyperledger/fabric-x-orderer) - is a BFT orderer service which implements ARMA protocol. [Docs](https://github.com/hyperledger/fabric-x-orderer/tree/main/docs), [Issues](https://github.com/hyperledger/fabric-x-orderer/issues)
+- [Fabric-X-Committer](https://github.com/hyperledger/fabric-x-committer) - is a post‑ordering transaction processing system built as microservices. [Docs](https://hyperledger.github.io/fabric-x-committer/), [Issues](https://github.com/hyperledger/fabric-x-committer/issues)
+- [Fabric-X-Samples](https://github.com/hyperledger/fabric-x-samples) - is the official home repository for sample applications built on top of Hyperledger Fabric-X.
+- [Fabric-X-EVM](https://github.com/hyperledger/fabric-x-evm) - makes Hyperledger Fabric-x (and Fabric) compatible with the Ethereum ecosystem. [Docs](https://github.com/hyperledger/fabric-x-evm/blob/main/docs/ARCHITECTURE.md), [Issues](https://github.com/hyperledger/fabric-x-evm/issues)
+- [Fabric-X Ansible](https://github.com/LF-Decentralized-Trust-labs/fabric-x-ansible-collection) - is an Ansible collection for deploying Fabric-X. [Docs](https://lf-decentralized-trust-labs.github.io/fabric-x-ansible-collection/), [Issues](https://github.com/LF-Decentralized-Trust-labs/fabric-x-ansible-collection/issues)
+
+
 ## Architecture Overview
 
 Figure below shows the high-level architecture differences between `Fabric Classic` and `Fabric-X`.
@@ -117,8 +127,9 @@ To set up the network yourself, follow the tutorial in the [Fabric-X Ansible Col
 
 ## Coming soon
 
-- [x] Sample token application on top of Fabric-X
-- [ ] Fabric-X Kubernetes and OpenShift deployment
+- [x] [Sample token application on top of Fabric-X](https://github.com/hyperledger/fabric-x-samples)
+- [x] [Fabric-X on Kubernetes](https://github.com/LF-Decentralized-Trust-labs/fabric-x-ansible-collection/blob/main/examples/README.md#kubernetes-inventories)
+- [ ] Fabric-X on OpenShift
 - [ ] Fabric-X Kubernetes operator
-- [ ] Fabric-x blockchain explorer
-- [ ] Fabric meets EVM
+- [ ] [Fabric-x blockchain explorer (wip)](https://github.com/LF-Decentralized-Trust-labs/fabric-x-block-explorer)
+- [x] [Fabric meets EVM](https://github.com/hyperledger/fabric-x-evm)
